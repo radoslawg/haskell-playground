@@ -1,8 +1,6 @@
 {
     "name": "Haskell (Community)",
-    "build": {
-      "dockerfile": "Dockerfile"
-    },
+    "image": "ghcr.io/radoslawg/haskell-devcontainer:latest",
     // Configure tool-specific properties.
     "customizations": {
       // Configure properties specific to VS Code.
@@ -18,7 +16,6 @@
             "dramforever.vscode-ghc-simple",
             "vigoo.stylish-haskell",
             "Edka.haskutil",
-            "ms-azuretools.vscode-docker",
             "phoityne.phoityne-vscode"
         ]
       }
