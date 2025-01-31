@@ -12,11 +12,7 @@
         // Add the IDs of extensions you want installed when the container is created.
         "extensions": [
             "haskell.haskell",
-            "hoovercj.haskell-linter",
-            "dramforever.vscode-ghc-simple",
-            "vigoo.stylish-haskell",
-            "Edka.haskutil",
-            "phoityne.phoityne-vscode"
+            "hoovercj.haskell-linter"
         ]
       }
     },
