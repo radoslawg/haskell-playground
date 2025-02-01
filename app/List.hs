@@ -1,3 +1,5 @@
+module List (main) where
+
 a::[Integer]
 a=[1,2,3,4,5,6,7,8,9,10]
 
@@ -34,6 +36,9 @@ hasPath' xs x y
     let xs' = [ (n, m) | (n, m) <- xs, n /= x] in
         or [ hasPath' xs' m y | (n, m) <- xs, n == x]
 
+sum' :: [Int] -> Int
+sum' = foldr (+) 0
+
 main :: IO ()
 main = do
     print (elem' 3 [1,2,3])
@@ -41,3 +46,4 @@ main = do
     print (isAsc [1, 2, 3, 4])
     print (hasPath [(1, 2), (2, 3), (3, 2), (4, 3), (4, 5)] 5 1)
     print (hasPath' [(1, 2), (2, 3), (3, 2), (4, 3), (4, 5)] 5 1)
+    print (sum' [1, 2, 3, 4])
