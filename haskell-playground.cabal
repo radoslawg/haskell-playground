@@ -29,7 +29,7 @@ synopsis:           Just Haskell experiments
 -- description:
 
 -- URL for the project homepage or repository.
-homepage:           https://github.com/radoslawg/haskell-devcontainer
+homepage:           https://github.com/radoslawg/haskell-playground
 
 -- The license under which the package is released.
 license:            BSD-3-Clause
